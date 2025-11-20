@@ -43,7 +43,7 @@ export default function App() {
     <div className="page">
       <header className="hero">
         <h1>AI Image Generator</h1>
-        <p className="subtitle">Generate images using Pollinations.ai — no DB required</p>
+        <p className="subtitle">Generate images using Pollinations.ai </p>
       </header>
 
       <main className="container">
@@ -99,7 +99,7 @@ export default function App() {
         </section>
 
         <section className="card gallery-card">
-          <h2>Generated Images (session)</h2>
+          <h2>Generated Images</h2>
           {images.length === 0 ? (
             <div className="empty">
               <div className="empty-illustration">🖼️</div>
@@ -121,6 +121,7 @@ export default function App() {
 
       <footer className="footer">
         <small>Powered by Pollinations.ai</small>
+        <small>Made by Ankur Rai</small>
       </footer>
     </div>
   );
