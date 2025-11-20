@@ -121,6 +121,7 @@ export default function App() {
 
       <footer className="footer">
         <small>Powered by Pollinations.ai</small>
+        <br />
         <small>Made by Ankur Rai</small>
       </footer>
     </div>
