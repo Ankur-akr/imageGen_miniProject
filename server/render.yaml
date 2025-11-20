@@ -1,0 +1,11 @@
+# render.yaml
+services:
+  - type: web
+    name: ai-image-server
+    env: node
+    branch: main
+    repo: https://github.com/Ankur-akr/imageGen_miniProject.git
+    rootDir: server
+    buildCommand: npm install
+    startCommand: npm start
+    plan: free
