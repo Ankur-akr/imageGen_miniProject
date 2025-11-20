@@ -1,4 +1,4 @@
-# netlify.toml
+
 [build]
   base = "client"
   command = "npm run build"
@@ -7,7 +7,7 @@
 [context.production.environment]
   NODE_VERSION = "18"
   # VITE_API_URL should be set in Netlify UI or you can set here:
-  # VITE_API_URL = "https://<YOUR_RENDER_URL>"
+  # VITE_API_URL = "https://imagegen-miniproject.onrender.com"
 
 [dev]
   command = "npm run dev"
